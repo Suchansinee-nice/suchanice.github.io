@@ -17,29 +17,29 @@
   </head>
   <body>
     <div
-      class="grid grid-cols-2 gap-4 px-3 pt-5 md:grid-cols-[20%_30%_1fr] md:gap-4 md:p-10 md:px-25"
+      class="grid grid-cols-2 gap-4 px-5 pt-5 md:grid-cols-[20%_30%_1fr] md:gap-4 md:p-10 md:px-25"
     >
       <div class="font-sans text-[#5499C7] font-normal">
         <header>
           <nav class="flex flex-col gap-4 pt-10">
             <a
               class="flex justify-center hover:text-[#1F618D] font-bold"
-              href=""
+              href="#about"
               >About</a
             >
             <a
               class="flex justify-center hover:text-[#1F618D] hover:font-bold"
-              href=""
+              href="#works"
               >Works</a
             >
             <a
               class="flex justify-center hover:text-[#1F618D] hover:font-bold whitespace-nowrap"
-              href=""
+              href="#sideProjects"
               >Side Projects</a
             >
             <a
               class="flex justify-center hover:text-[#1F618D] hover:font-bold whitespace-nowrap"
-              href=""
+              href="#interests"
               >Interests</a
             >
           </nav>
@@ -80,12 +80,30 @@
           </div>
         </div>
         <button
-          class="mt-4 font-sans font-semibold rounded-lg shadow-lg bg-[#F2F2F2] border border-[#DBDBDB] w-40 h-10"
+          class="mt-4 font-sans font-semibold rounded-lg shadow-lg bg-[#F2F2F2] hover:bg-[#DBDBDB] border border-[#DBDBDB] w-40 h-10"
         >
           Resume
         </button>
       </div>
-      <div>column3</div>
+      <div class="flex flex-col gap-4 pt-10">
+        <section class="flex flex-col gap-4" id="about">
+          <div class="sticky top-0 font-sans font-bold text-2xl">About</div>
+          <h2>Education</h2>
+        </section>
+
+        <section id="works">
+          <div class="sticky top-0 font-sans font-bold text-2xl">Works</div>
+        </section>
+
+        <section id="sideProjects">
+          <div class="sticky top-0 font-sans font-bold text-2xl">
+            Side Projects
+          </div>
+        </section>
+        <section id="interests">
+          <div class="sticky top-0 font-sans font-bold text-2xl">Interests</div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
