@@ -140,7 +140,7 @@
           <h2 class="font-sans font-bold text-xl">Experiences</h2>
           <div class="flex flex-row gap-6 pt-4 items-center">
             <img
-              class="w-15 h-15"
+              class="w-15 h-15 shadow-lg rounded-full overflow-hidden flex-shrink-0"
               alt="mtl"
               src="assets/img/MTL-LOGOBIG2.webp"
             />
@@ -161,7 +161,7 @@
           </div>
           <div class="flex flex-row gap-6 items-center">
             <img
-              class="w-15 h-15 rounded-full overflow-hidden"
+              class="w-15 h-15 rounded-full overflow-hidden shadow-lg flex-shrink-0"
               src="assets/img/1_JEh2pek4SmxrNmqTNIAjKQ.png"
             />
             <div>
@@ -180,8 +180,32 @@
             </div>
           </div>
           <div class="flex flex-row gap-6 items-center">
-            <img class="w-25 h-15" src="assets/img/Logo-MFEC.png" />
+            <div class="w-15 h-15 rounded-full overflow-hidden shadow-lg">
+              <!-- you should add overflow-hidden :test by add bg-red-500 -> see img overflow the rounded -->
+              <img
+                class="w-25 h-15 object-contain flex-shrink-0"
+                src="assets/img/Logo-MFEC.png"
+                alt="mfec"
+              />
+            </div>
+            <div>
+              <p class="font-sans text-[#7D7D7D] text-sm italic">
+                Jun 2017 - Dec 2022 | Full-time
+              </p>
+              <p class="font-sans text-sm">
+                <strong>Technical Consultant</strong>
+                at
+                <a
+                  href="https://www.mfec.co.th/"
+                  class="text-[#5499C7] hover:text-[#1F618D]"
+                  target="_blank"
+                  >MFEC</a
+                >
+              </p>
+            </div>
           </div>
+          <h2 class="font-sans font-bold text-xl pt-6">Skills</h2>
+          <div class="flex flex-row"></div>
         </section>
 
         <section id="sideProjects">
